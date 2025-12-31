@@ -285,7 +285,7 @@ export default function MessageCard({
                           {/* Letter body */}
                           <div className="handwriting text-sm sm:text-base leading-relaxed text-[#1b0d14] pb-20 pt-6">
                             <div className="mb-4 text-[#f04299] font-medium">
-                              My dearest Divya,
+                              My dearest Tiya,
                             </div>
                             <div
                               className="mb-6 text-justify"

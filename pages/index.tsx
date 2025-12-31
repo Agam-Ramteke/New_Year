@@ -28,15 +28,15 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Happy National Princess Day 👑</title>
+        <title>Happy New Year Tiya! 🎊</title>
         <meta
           name="description"
-          content="A special surprise for National Princess Day - A delightful interactive experience with love letters, music, and memories"
+          content="A special New Year surprise for Tiya - A delightful interactive experience with love letters, music, and memories"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="keywords"
-          content="National Princess Day, love letter, surprise, romantic, interactive"
+          content="New Year, love letter, surprise, romantic, interactive, 2026"
         />
         <meta name="author" content="Made with 💕" />
 
@@ -47,10 +47,10 @@ export default function Home() {
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Happy National Princess Day 👑" />
+        <meta property="og:title" content="Happy New Year Tiya! 🎊" />
         <meta
           property="og:description"
-          content="A special surprise for National Princess Day - A delightful interactive experience with love letters, music, and memories"
+          content="A special New Year surprise for Tiya - A delightful interactive experience with love letters, music, and memories"
         />
         <meta property="og:image" content="/og-image.jpg" />
         <meta
@@ -60,10 +60,10 @@ export default function Home() {
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Happy National Princess Day 👑" />
+        <meta name="twitter:title" content="Happy New Year Tiya! 🎊" />
         <meta
           name="twitter:description"
-          content="A special surprise for National Princess Day"
+          content="A special New Year surprise for Tiya"
         />
         <meta name="twitter:image" content="/og-image.jpg" />
 
@@ -83,7 +83,7 @@ export default function Home() {
 
         <footer className="px-4 py-8 text-center text-text/60">
           <p className="text-sm">
-            National Princess Day —{' '}
+            Happy New Year —{' '}
             {new Date().toLocaleDateString('en-US', {
               year: 'numeric',
               month: 'long',

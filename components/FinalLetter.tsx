@@ -153,18 +153,17 @@ export default function FinalLetter({ onRestart }: FinalLetterProps) {
                 My sweetest Cutiepie,
               </p>
               <p>
-                You&apos;re the calm I reach for and the laugh that brightens my
-                day.
+                As we step into 2026, I want you to know you&apos;re the calm I reach for and the laugh that brightens my day.
               </p>
               <p className="text-[#5a9bb8]">
                 I hope this tiny world made you smile — and whispered how much
                 you mean to me.
               </p>
               <p>
-                I&apos;ll keep making memories, big and small, always with you.
+                I&apos;ll keep making memories, big and small, always with you in this new year.
               </p>
               <p className="text-[#a67fb8]">
-                Forever yours, in every little universe.
+                Forever yours, in every little universe. Happy New Year!
               </p>
             </article>
 

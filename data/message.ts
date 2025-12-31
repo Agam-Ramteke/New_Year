@@ -1,14 +1,16 @@
 export const messageData = {
-  title: 'Happy National Princess Day 👑',
-  subtitle: 'To my favorite princess — today, and every day.',
-  body: `Hey princess,
+  title: 'Happy New Year Tiya 🎊',
+  subtitle: 'To my favorite person — today, and every year.',
+  body: `Hey Tiya,
 
-I found something pretty today and it made me think of you — soft, bright, and impossible not to smile at. I wanted to celebrate you — your kindness, your laugh, the way you brighten my days.
+Another year has come and gone, but one thing remains my favorite constant: you. You bring so much light, laughter, and warmth into my world.
 
-You're my queen of small things and big heart. Happy National Princess Day. 🌸
+As we step into 2026, I just want to remind you how incredibly special you are to me. Here's to more shared moments, more smiles, and a year that's as amazing as you are.
 
-— With all my love, Rushi`,
-  cta: 'Open your gift ✨',
+Happy New Year! 🎆
+
+— With all my love, Agam`,
+  cta: 'Open your New Year gift ✨',
   toast: {
     copied: 'Message copied! Send it with a heart 💌',
     error: "Couldn't copy — try again",
