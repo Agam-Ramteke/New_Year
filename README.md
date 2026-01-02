@@ -1,18 +1,10 @@
-# 👑 New Year Surprise
+# 🎉 New Year Surprise
 
-<div align="center">
-
-## 🌐 **[👉 VIEW LIVE SITE 👈](https://happy-princess-dayy.netlify.app/)**
-
-[![Live Site](https://img.shields.io/badge/🌐_Live_Site-happy--princess--dayy.netlify.app-FF69B4?style=for-the-badge)](https://happy-princess-dayy.netlify.app/)
-
-</div>
-
-A delightful single-page Next.js site to celebrate National Princess Day with a special surprise message, beautiful animations, and confetti!
+A delightful single-page Next.js site to celebrate the New Year with a special surprise message, beautiful animations, and confetti!
 
 ## ✨ Features
 
-- 🎨 Beautiful pastel design with soft colors and rounded cards
+- 🎨 Beautiful design with festive colors and rounded cards
 - 🎭 Smooth animations using Framer Motion
 - 🎊 Confetti celebration on gift reveal
 - 📱 Fully responsive and mobile-first
@@ -66,55 +58,37 @@ npm test
 
 ### Edit the Message
 
-Edit the message content in `data/message.ts`:
+Edit the message content in `data/message.ts` to wish a Happy New Year:
 
 ```typescript
 export const messageData = {
-  title: 'Happy National Princess Day 👑',
-  subtitle: 'To my favorite princess — today, and every day.',
-  body: `Your custom message here...`,
+  title: 'Happy New Year 2026! 🎆',
+  subtitle: 'Here is to new beginnings and amazing moments.',
+  body: `As the clock strikes midnight, I want to wish you...`,
   // ...
 };
 ```
 
 ### Change Colors
 
-Update CSS variables in `styles/globals.css`:
+Update CSS variables in `styles/globals.css` for a festive look:
 
 ```css
 :root {
-  --bg: #fff9ff;
-  --primary: #ffb6e6;
-  --accent: #ffd8a8;
-  --text: #2d2d2d;
+  --bg: #0f172a;        /* Dark Blue/Black */
+  --primary: #fbbf24;   /* Gold */
+  --accent: #f87171;    /* Red/Pink */
+  --text: #f8fafc;      /* White */
 }
 ```
 
 ### Replace Images
 
-Add your own images to `public/assets/` and update the image paths in the respective components:
-- Hero images: `components/Hero.tsx`
-- Letter images: `components/MessageCard.tsx`
-- Music covers: `components/Playlist.tsx`
-- Flip card images: `components/FlipCards.tsx`
+Replace placeholder images in `components/PhotoGrid.tsx` or add your own images to `public/assets/`.
 
 ## 🚢 Deployment
 
-### 🌐 Live Site
-
-**👉 [View Live Site](https://happy-princess-dayy.netlify.app/) 👈**
-
-The site is currently deployed on Netlify and accessible at the URL above.
-
-### Deploy to Netlify
-
-1. Push your code to GitHub
-2. Go to [netlify.com](https://netlify.com)
-3. Click "New site from Git" and connect your repository
-4. Netlify will automatically detect Next.js and deploy
-5. Your site will be live with a custom domain or netlify.app subdomain
-
-### Deploy to Vercel (Alternative)
+### Deploy to Vercel (Recommended)
 
 1. Push your code to GitHub
 2. Go to [vercel.com](https://vercel.com)
@@ -137,15 +111,11 @@ The site is currently deployed on Netlify and accessible at the URL above.
 ## 📁 Project Structure
 
 ```
-princess-day/
+new-year-surprise/
 ├── components/
-│   ├── Hero.tsx           # Hero section with crown animation
-│   ├── MessageCard.tsx    # Animated message card with envelope
-│   ├── Playlist.tsx       # Music playlist with carousel
-│   ├── FlipCards.tsx      # 3D flip cards with messages
-│   ├── FinalLetter.tsx    # Final love letter page
-│   ├── SealedLetter.tsx   # Sealed letter confirmation page
-│   ├── TypewriterText.tsx # Typewriter effect component
+│   ├── Hero.tsx           # Hero section with animation
+│   ├── MessageCard.tsx    # Animated message card
+│   ├── PhotoGrid.tsx      # Photo grid/carousel
 │   └── Confetti.tsx       # Confetti animation
 ├── data/
 │   └── message.ts         # Message content (editable)
@@ -156,12 +126,7 @@ princess-day/
 │   └── index.tsx          # Main page
 ├── public/
 │   └── assets/
-│       ├── crown.svg      # Crown illustration
-│       ├── intro-*.webp   # Hero section images
-│       ├── letter-*.webp  # Letter decorative images
-│       ├── music*.png     # Music track cover images
-│       ├── music*.mp3     # Audio files
-│       └── pic*.png       # Flip card images
+│       └── crown.svg      # Icon asset (can be replaced with sparkle star)
 ├── styles/
 │   └── globals.css        # Global styles & CSS variables
 └── package.json
@@ -177,5 +142,4 @@ princess-day/
 
 ## 📝 License
 
-Made with 💕 for National Princess Day
-
+Made with 💕 for the New Year
